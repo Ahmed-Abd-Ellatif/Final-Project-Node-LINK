@@ -12,7 +12,7 @@ const UserRoute = require("./routes/userRoute");
 
 const app = express();
 const corsOptions = {
-  origin: ["http://localhost:4200", "https://codzie.com"],
+  origin: ["http://localhost:4200"],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: ["Content-Type", "Authorization"],
   optionsSuccessStatus: 200,
