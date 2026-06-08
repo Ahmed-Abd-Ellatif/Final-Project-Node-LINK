@@ -12,7 +12,7 @@ const UserRoute = require("./routes/userRoute");
 
 const app = express();
 const corsOptions = {
-  origin: ["http://localhost:4200","https://final-project-anguler-link.vercel.app/"],
+  origin: ["http://localhost:4200","https://final-project-anguler-link.vercel.app"],
   methods: "GET,POST,PUT,DELETE",
   allowedHeaders: ["Content-Type", "Authorization"],
   optionsSuccessStatus: 200,
